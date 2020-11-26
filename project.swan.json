@@ -1,0 +1,84 @@
+{
+    "appid": "17775484",
+    "compilation-args": {
+        "common": {
+            "babelSetting": {
+                "ignore": []
+            },
+            "enhance": false,
+            "imgCompress": false
+        },
+        "options": [],
+        "selected": -2
+    },
+    "editor": {
+        "curPath": "C:\\Users\\Administrator\\Desktop\\baidu\\project.swan.json",
+        "expands": [
+            "C:\\Users\\Administrator\\Desktop\\baidu\\pages",
+            "C:\\Users\\Administrator\\Desktop\\baidu\\pages\\chanpin"
+        ],
+        "paths": [
+            "C:\\Users\\Administrator\\Desktop\\baidu\\pages\\anli\\article.js",
+            "C:\\Users\\Administrator\\Desktop\\baidu\\pages\\anli\\anli1\\article.js",
+            "C:\\Users\\Administrator\\Desktop\\baidu\\pages\\zixun\\index.js",
+            "C:\\Users\\Administrator\\Desktop\\baidu\\pages\\zixun\\zixun.js",
+            "C:\\Users\\Administrator\\Desktop\\baidu\\pages\\zixun\\zixun.json",
+            "C:\\Users\\Administrator\\Desktop\\baidu\\pages\\zixun\\index.json",
+            "C:\\Users\\Administrator\\Desktop\\baidu\\pages\\guanyu\\index.js",
+            "C:\\Users\\Administrator\\Desktop\\baidu\\pages\\guanyu\\youshi.json",
+            "C:\\Users\\Administrator\\Desktop\\baidu\\pages\\guanyu\\lianxiwomen.swan",
+            "C:\\Users\\Administrator\\Desktop\\baidu\\pages\\chanpin\\index.js",
+            "C:\\Users\\Administrator\\Desktop\\baidu\\pages\\chanpin\\article.js",
+            "C:\\Users\\Administrator\\Desktop\\baidu\\pages\\index\\index.js",
+            "C:\\Users\\Administrator\\Desktop\\baidu\\pages\\index\\index.swan",
+            "C:\\Users\\Administrator\\Desktop\\baidu\\pages\\anli\\index.swan",
+            "C:\\Users\\Administrator\\Desktop\\baidu\\pages\\anli\\anli1\\index.swan",
+            "C:\\Users\\Administrator\\Desktop\\baidu\\pages\\chanpin\\article.swan",
+            "C:\\Users\\Administrator\\Desktop\\baidu\\pages\\chanpin\\index.swan",
+            "C:\\Users\\Administrator\\Desktop\\baidu\\project.swan.json"
+        ],
+        "recentlyFiles": [
+            "C:\\Users\\Administrator\\Desktop\\baidu\\project.swan.json",
+            "C:\\Users\\Administrator\\Desktop\\baidu\\pkginfo.json",
+            "C:\\Users\\Administrator\\Desktop\\baidu\\app.js",
+            "C:\\Users\\Administrator\\Desktop\\baidu\\app.json",
+            "C:\\Users\\Administrator\\Desktop\\baidu\\pages\\chanpin\\article.js",
+            "C:\\Users\\Administrator\\Desktop\\baidu\\pages\\chanpin\\article.json",
+            "C:\\Users\\Administrator\\Desktop\\baidu\\pages\\chanpin\\index.js",
+            "C:\\Users\\Administrator\\Desktop\\baidu\\pages\\chanpin\\index.swan",
+            "C:\\Users\\Administrator\\Desktop\\baidu\\pages\\chanpin\\index.json",
+            "C:\\Users\\Administrator\\Desktop\\baidu\\pages\\chanpin\\article.swan",
+            "C:\\Users\\Administrator\\Desktop\\baidu\\pages\\anli\\index.swan",
+            "C:\\Users\\Administrator\\Desktop\\baidu\\pages\\anli\\anli1\\index.swan",
+            "C:\\Users\\Administrator\\Desktop\\baidu\\pages\\index\\index.swan",
+            "C:\\Users\\Administrator\\Desktop\\baidu\\pages\\index\\index.json",
+            "C:\\Users\\Administrator\\Desktop\\baidu\\pages\\index\\index.js",
+            "C:\\Users\\Administrator\\Desktop\\baidu\\pages\\index\\index.css",
+            "C:\\Users\\Administrator\\Desktop\\baidu\\pages\\guanyu\\lianxiwomen.swan",
+            "C:\\Users\\Administrator\\Desktop\\baidu\\pages\\anli\\index.js",
+            "C:\\Users\\Administrator\\Desktop\\baidu\\pages\\guanyu\\lianxiwomen.json",
+            "C:\\Users\\Administrator\\Desktop\\baidu\\pages\\guanyu\\lianxiwomen.js",
+            "C:\\Users\\Administrator\\Desktop\\baidu\\pages\\guanyu\\youshi.json"
+        ]
+    },
+    "host": "baiduboxapp",
+    "libVersion": "2.0.12",
+    "preview": {
+        "packageId": 948111
+    },
+    "projectname": "zeiot",
+    "publish": {
+        "hideTips": true,
+        "version": "1.1.0.1"
+    },
+    "setting": {
+        "autoAudits": false,
+        "urlCheck": true
+    },
+    "swan": {
+        "baiduboxapp": {
+            "swanJsVersion": "3.220.16",
+            "extensionJsVersion": "1.18.3"
+        }
+    }
+}

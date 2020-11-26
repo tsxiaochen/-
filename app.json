@@ -1,0 +1,76 @@
+{
+    "debug": true,
+    "pages": [
+        "pages/index/index",
+        "pages/zixun/zixun",
+        "pages/zixun/index",
+        "pages/guanyu/index",
+        "pages/guanyu/youshi",
+        "pages/guanyu/gongsijianjie",
+        "pages/guanyu/lianxiwomen",
+        "pages/xiangmu/index",
+        "pages/chanpin/index",
+        "pages/chanpin/article",
+        "pages/anli/index",
+        "pages/anli/article",
+        "pages/kefu/kefu/kefu",
+        "pages/kefu/kefu",
+        "pages/anli/anli1/index",
+        "pages/hexinyoushi/hexinyoushi",
+        "pages/hexinyoushi/index",
+        "pages/yiyunxitong/yiyunxitong",
+        "pages/yiyunxitong/index",
+        "pages/chanpin1/index"
+    ],
+    "window": {
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTitleText": "中易云（唐山）物联网科技有限公司",
+        "navigationBarTextStyle": "black",
+        "backgroundTextStyle": "black",
+        "enablePullDownRefresh": false
+    },
+    "networkTimeout": {
+        "request": 30000,
+        "connectSocket": 10000,
+        "uploadFile": 10000,
+        "downloadFile": 10000
+    },
+    "tabBar": {
+        "color": "#a2a2a2",
+        "selectedColor": "#3388ff",
+        "borderStyle": "black",
+        "backgroundColor": "#ffffff",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "images/home-off.png",
+                "selectedIconPath": "images/home-on.png"
+            },
+            {
+                "pagePath": "pages/hexinyoushi/index",
+                "text": "核心优势",
+                "iconPath": "images/zixun-off.png",
+                "selectedIconPath": "images/zixun-on.png"
+            },
+            {
+                "pagePath": "pages/yiyunxitong/index",
+                "text": "易云系统",
+                "iconPath": "images/chanpin-off.png",
+                "selectedIconPath": "images/chanpin-on.png"
+            },
+            {
+                "pagePath": "pages/anli/index",
+                "text": "解决方案",
+                "iconPath": "images/fuwu-off.png",
+                "selectedIconPath": "images/fuwu-on.png"
+            },
+            {
+                "pagePath": "pages/guanyu/index",
+                "text": "关于我们",
+                "iconPath": "images/kefu-off.png",
+                "selectedIconPath": "images/kefu-on.png"
+            }
+        ]
+    }
+}
