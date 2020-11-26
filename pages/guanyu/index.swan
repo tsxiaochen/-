@@ -1,0 +1,60 @@
+<view class='gy1'>
+  <image src='../../images/qyln.jpg'></image>
+</view>
+
+<view class='text'>
+   <view class='line_y'></view>
+   <text>关于我们</text>
+</view>
+<navigator url='/pages/guanyu/gongsijianjie'>
+<view class="wx-cells">
+    <view class="wx-cell">
+      <image class="wx-cell-icon"src="../../images/guanyu_jieshao.png"></image>
+      <text class="wx-cell-text">公司介绍</text>
+      <image class="wx-cell-arrow" src="../../images/right-gray.png"></image>
+    </view>
+</view>
+</navigator>
+<navigator url='/pages/guanyu/youshi'>
+<view class="wx-cells">
+    <view class="wx-cell">
+      <image class="wx-cell-icon"src="../../images/guanyu_youshi.png"></image>
+      <text class="wx-cell-text">公司优势</text>
+      <image class="wx-cell-arrow" src="../../images/right-gray.png"></image>
+    </view>
+</view>
+</navigator>
+<navigator url='/pages/zixun/index'>
+<view class="wx-cells">
+    <view class="wx-cell" data-route='/pages/zixun/' bindtap='navToPage'>
+      <image class="wx-cell-icon"src="/images/zixun-on.png"></image>
+      <text class="wx-cell-text">新闻资讯</text>
+      <image class="wx-cell-arrow" src="../../images/right-gray.png"></image>
+    </view>
+</view>
+</navigator>
+<navigator url='/pages/chanpin/index'>
+<view class="wx-cells">
+    <view class="wx-cell" data-route='/pages/chanpin/' bindtap='navToPage'>
+      <image class="wx-cell-icon"src="/images/zixun-on.png"></image>
+      <text class="wx-cell-text">硬件产品</text>
+      <image class="wx-cell-arrow" src="../../images/right-gray.png"></image>
+    </view>
+</view>
+</navigator>
+<navigator url='/pages/guanyu/lianxiwomen'>
+<view class="wx-cells">
+    <view class="wx-cell" data-route='../guanyu/lianxiwom' bindtap='navToPage'>
+      <image class="wx-cell-icon"src="../../images/guanyu_lianxi.png"></image>
+      <text class="wx-cell-text">联系我们</text>
+      <image class="wx-cell-arrow" src="../../images/right-gray.png"></image>
+    </view>
+</view>
+</navigator>
+
+<view class="wx-cells">
+    <view class="wx-cell">
+      <button type="default" bindtap="calling">点击拨打客服电话</button>
+    </view>
+</view>
+

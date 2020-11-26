@@ -1,0 +1,30 @@
+<view class='gy1'>
+  <image src='../../images/qyln.jpg'></image>
+</view>
+
+<view class='text'>
+   <view class='line_y'></view>
+   <text>硬件产品内容页</text>
+</view>
+<view>
+
+  <!--detail.wxml-->
+<view class="container">
+  <view class="topic-detail">
+    <view class="topic-owner">
+        <view class="topic-tit">{{article.title}}</view>
+    </view>
+    <view class="topic-info">
+        <text><text>作者:中易云</text>&nbsp;/&nbsp;</text>发布时间:{{article.senddate}}</text></text>
+
+    </view>
+    <view class="topic-desc">
+
+     <view><rich-text nodes="{{article.body}}" bindtap="tap"></rich-text></view>
+
+
+    </view>
+  </view>
+
+
+

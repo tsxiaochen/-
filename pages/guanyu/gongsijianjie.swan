@@ -1,0 +1,25 @@
+
+<view class='gy1'>
+  <image src='../../images/qyln.jpg'></image>
+</view>
+
+<view class='text'>
+   <view class='line_y'></view>
+   <text>公司简介</text>
+</view>
+<view>
+<view style="font-size:14px;margin-top:20px;margin-left:10px; margin-right:10px;letter-spacing:1px;font-size:14px">
+   公司专注于物联网底层网络研究、物联网产品及物联网云平台的研发，是集研发、生产与营销于一体的高新技术企业。 
+ </view>
+<view style="font-size:14px;margin-top:20px;margin-left:10px; margin-right:10px;letter-spacing:1px;font-size:14px" > 
+    公司自有核心技术的基于云计算的物联网综合管控共享服务平台（物联网云平台），具有40几种基础功能，上百种组件，可以由非专业人士，自由、快速的搭建适合各种物联网应用场景的系统，并能实现对功能、算法、协议、大数据挖掘等的共享、交互，同时提供应用市场，可广泛的整合多方资源。平台已经在天安门、西门子、中国石油、河北钢铁、万科地产、南湖世界园艺博览会等广泛使用。
+    </view>
+ <view style="font-size:14px;margin-top:20px;margin-left:10px; margin-right:10px;letter-spacing:1px;font-size:14px" > 
+　　除了基础科研研究，公司正在积极推进技术的产业化应用，目前已投入市场80余款物联网产品，配合云平台使用可有效解决智慧城市、智慧工业、智慧农牧业、智慧医疗、智慧消防等众多应用场景问题。同时，公司拥有专业团队积极推进物联网产品及云平台在其他应用场景的应用，积极帮助传统企业进行“互联网+”的转型，促进产业升级。
+</view>
+
+
+<view style="font-size:14px;margin-top:20px;margin-left:10px; margin-right:10px;letter-spacing:1px;font-size:14px" >  中易云秉承“让复杂的物联网应用变简单”的核心理念，积极促进科技成果转化，为客户创造价值，用服务感动上帝。公司产品受到过原国家发改委主任-张平的肯定，并在考察时（下图一）寄语：“你们从事的是一个大产业，一定要把产业链做长”。</view>
+
+
+</view>

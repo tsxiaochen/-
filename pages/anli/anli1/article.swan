@@ -1,0 +1,51 @@
+<view class='gy1'>
+  <image src='../../../images/qyln.jpg'></image>
+</view>
+
+<view class='text'>
+   <view class='line_y'></view>
+   <text>案列内容页面</text>
+</view>
+<view>
+
+  <!--detail.wxml-->
+<view class="container">
+  <view class="topic-detail">
+    <view class="topic-owner">
+        <view class="topic-tit">{{article.title}}</view>
+    </view>
+    <view class="topic-info">
+        <text><text>作者:中易云</text>&nbsp;/&nbsp;</text>发布时间:{{article.senddate}}</text></text>
+
+    </view>
+    <view class="topic-desc">
+     <view><rich-text nodes="{{article.body}}" bindtap="tap" ></rich-text></view>
+       <template is="bdParse" data="{{ {bdParseData:article.nodes} }}" />
+
+    </view>
+  </view>
+
+
+
+<!--**************************首页表单******************* -->
+<view class="info-box">
+<view class="sdd">
+申请试用当前系统
+</view>
+<form bindsubmit="formSubmit" bindreset="formReset">
+  <view class="section1">
+    <input name="xingming" placeholder="请输入姓名" class="section11"/>
+  </view>
+    <view class="section2">
+    <input name="xingbie" placeholder="您的电话" class="section11" />
+  </view>
+    <view class="section3">
+    <input name="aihao" placeholder="请输入试用系统名称" class="section11"  />
+  </view>
+  <view class="btn-area4">
+    <button formType="submit" class="btn-area41">试用当前系统</button>
+    <!--* <button formType="reset">重置</button>-->
+  </view>
+</form>
+  </view>
+<!--**************************首页表单******************* -->

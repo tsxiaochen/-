@@ -1,0 +1,135 @@
+
+<!--*************中易云（唐山）物联网科技有限公司***************-->
+<view>
+<swiper indicator-dots="true"
+    autoplay="true" interval="3000" duration="500">
+    <block s-for="imgUrl in imgs">
+        <swiper-item>
+         <navigator url="/pages/chanpin1/index" open-type="navigator-hover" >
+            <image src="{{imgUrl}}" class="slide-image"/>
+            </navigator>
+        </swiper-item>
+    </block>
+</swiper>
+</view>
+
+<!--**************************新增内容开始******************* -->
+<view class="index-service index-f">
+  <view class="index-title">核心优势</view>
+  <view class="index-title-sub">让复杂的物联网应用变简单！</view>
+  <view class="scl">
+<view class="data">
+    <view class="dt">自由组态</view>
+      <view class="m"><image src="https://www.zeiot.cn/style/images/pc1.png" ></view>
+      <view class="des">可以进行菜单组态、功能组态、各种模板组态、权限组态、各种大数据展示组态等</view>
+</view>
+
+    <view class="data">
+      <view class="dt">开放对接</view>
+      <view class="m"><image src="https://www.zeiot.cn/style/images/pc2.png"></view>
+      <view class="des">集成各种标准通讯协议，且支持自定义协议、第三方程序，能对接绝大多数硬件</view>
+    </view>
+
+    <view class="data">
+      <view class="dt">开放对接</view>
+      <view class="m"><image src="https://www.zeiot.cn/style/images/pc3.png"></view>
+      <view class="des">易云系统对各种大数据信息进行综合展示，也可以外接大屏进行实时展示</view>
+    </view>
+
+    <view class="data">
+      <view class="dt">开放对接</view>
+      <view class="m"><image src="https://www.zeiot.cn/style/images/pc4.png"></view>
+      <view class="des">易云系统中包含多种模板，用户也可以自行创建模板</view>
+    </view>
+
+  </view>
+</view>
+<!--**************************新增内容结束******************* -->
+<!--**************************新增内开始******************* -->
+<view class="index-news index-f">
+  <view class="index-title">解决方案</view>
+  <view class="index-title-sub">打造您的专属物联网解决方案。</view>
+
+<view class="lyc-technical-main">
+
+<view class="cc1" style="color:#000;">
+<navigator url="/pages/anli/article?id=42" open-type="navigator-hover" >
+<image src="https://www.zeiot.cn/uploads/allimg/191218/1-20101GG645340-1.png" style="width:100%;height:120px;">
+</navigator>       </view>
+<view class="cc1"  style="color:#000;">
+<navigator url="/pages/anli/article?id=440" open-type="navigator-hover" >
+<image src="https://www.zeiot.cn/uploads/allimg/191218/1-200Q10TP3M5-1.png" style="width:100%;height:120px;"></navigator>
+                  </view>
+<view class="cc1" style="color:#000;"><navigator url="/pages/anli/article?id=49" open-type="navigator-hover" >
+ <image src="https://www.zeiot.cn/uploads/allimg/191218/1-20101GF955306-1.png" style="width:100%;height:120px;"></navigator>
+                  </view>
+<view class="cc1"  style="color:#000;"><navigator url="/pages/anli/article?id=132" open-type="navigator-hover" >
+<image src="https://www.zeiot.cn/uploads/allimg/191218/1-19121P95935403-lp-1.png" style="width:100%;height:120px;"></navigator>
+             </view>
+</view>
+ <view>
+<!--**************************新增内容结束******************* -->
+<!--**************************新增内容开始******************* -->
+<view class="index-case index-f">
+  <view class="index-title">相关硬件</view>
+  <view class="index-title-sub">提供多种物联网产品，从感知层到传输层到系统层</view>
+
+<view class="scl">
+    <view class="swiper-container index-case-loop swiper-container-horizontal swiper-container-ios">
+<swiper indicator-dots="true" autoplay="true" interval="3000" duration="500">
+    <block s-for="imgUrl in imgs1">
+        <swiper-item>
+            <navigator url="/pages/chanpin1/index" open-type="navigator-hover" >
+             <image src="{{imgUrl}}" class="slide-image"/>
+            </navigator>
+        </swiper-item>
+    </block>
+</swiper>
+     </view>
+
+</view>
+
+</view>
+<!--**************************新增内容开始******************* -->
+<view class="index-news index-f">
+  <view class="index-title">新闻中心</view>
+  <view class="index-title-sub">记录点滴成长，传播行业价值！</view>
+    <view class="swiper-wrapper" >
+        <view class="swiper-slide swiper-slide-active" data-swiper-slide-index="0" >
+          <view class="m"><image src="https://www.zeiot.cn/m/images/index-list1.jpg">
+            <view>公司新闻</view>
+          </view>
+        <block s-for="{{zixun}}" ><view s-if="index<6">
+        <navigator url="/pages/zixun/zixun?id={{item.id}}" hover-class="navigator-hover" >
+         <view class="cl1">{{item.senddate}}</view>
+          <view class="cl2">{{item.title}} </view>
+        </navigator>
+   </block>
+            </view>
+    </view>
+</view>
+</view>
+<!--**************************新增内容结束******************* -->
+
+<!--**************************首页表单******************* -->
+<view class="info-box">
+<view class="sdd">
+申请试用账号或咨询
+</view>
+<form bindsubmit="formSubmit" bindreset="formReset">
+  <view class="section1">
+    <input name="xingming" placeholder="请输入姓名" class="section11"/>
+  </view>
+    <view class="section2">
+    <input name="xingbie" placeholder="您的电话" class="section11" />
+  </view>
+    <view class="section3">
+    <input name="aihao" placeholder="请输入您的需求" class="section11"  />
+  </view>
+  <view class="btn-area4">
+    <button formType="submit" class="btn-area41">提交申请</button>
+    <!--* <button formType="reset">重置</button>-->
+  </view>
+</form>
+  </view>
+<!--**************************首页表单******************* -->

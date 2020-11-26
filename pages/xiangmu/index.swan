@@ -1,0 +1,10 @@
+<view class="text">
+    <view class="line_y"></view>
+    <text>中易云客户</text>
+</view>
+<view class="line toutiao">
+    <image class="toutiao-img" src="https://www.zeiot.cn/uploads/200203/1-2002031A5523M.jpg"></image>
+    <view class="two-line-text">
+      <text class="text-center txt1">中易云（唐山）物联网科技有限公司</text>
+    </view>
+</view>

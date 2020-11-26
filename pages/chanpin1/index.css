@@ -1,0 +1,263 @@
+.gy1 image{
+    width: 750rpx;
+    height: 200rpx;
+  }
+  .line_y{
+    width: 3px;
+    height: 18px;
+    display: inline-block;
+    background-color:limegreen;
+  }
+  view.text{
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 10px 10px 10px 10px;
+    font-size: 18px;
+    color: aliceblue;
+    background-color: silver;
+  }
+  view.text text{
+   margin-left: 10px;
+   line-height: 18px;
+  }
+
+  /*分类*/
+  .index-nav {
+    height: 80px;
+    /*background: red;*/
+    display: flex;
+    flex-direction: row;
+    /*align-items: center;*/
+    background-color: #fff;
+    color: #646464;
+  }
+
+  .index-nav view {
+    flex: 1;
+    flex-direction: column;
+    border-right: 1px solid #F2f2f2;
+  }
+  .index-nav image {
+    width: 38px;
+    height: 38px;
+  }
+  .index-nav text {
+    font-size: 16px;
+  }
+
+  .text{ background-color: #F2f2f2;}
+
+  view.text {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 10px 10px 10px 12px;
+    font-size: 15px;
+    color: #656565;
+  }
+
+  view.text:before {
+      position: absolute;
+      display: block;
+      content: ' ';
+      left: -5px;
+      width: 2px;
+      height: 100%;
+      background-color: #09bb07;
+  }
+  .line_y {
+    width: 3px;
+    height: 100%;
+    height: 18px;
+    display: inline-block;
+    background-color: #09bb07;
+  }
+  view.text text {
+    margin-left: 10px;
+    line-height: 18px;
+  }
+
+  .item {
+    margin-bottom: 7px;
+    height: 126px;
+  }
+
+  .nr11 image{
+  width: 100%;
+  height: 280rpx;
+  }
+
+  .l-c-c {  /*4个服务项目均匀排列*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .node-item {
+      height:100rpx;
+      line-height: 100rpx;
+      border-bottom:1px solid #ddd;
+      font-size:14px;
+      color:#333;
+  }
+
+  /*分类*/
+  .index-nav {
+    height: 80px;
+    /*background: red;*/
+    display: flex;
+    flex-direction: row;
+    /*align-items: center;*/
+    background-color: #fff;
+    color: #646464;
+  }
+
+  .index-nav view {
+    flex: 1;
+    flex-direction: column;
+    border-right: 1px solid #F2f2f2;
+  }
+  .index-nav image {
+    width: 38px;
+    height: 38px;
+  }
+  .index-nav text {
+    font-size: 16px;
+  }
+
+  .text{ background-color: #F2f2f2;}
+
+  view.text {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 10px 10px 10px 12px;
+    font-size: 15px;
+    color: #656565;
+  }
+
+  view.text:before {
+      position: absolute;
+      display: block;
+      content: ' ';
+      left: -5px;
+      width: 2px;
+      height: 100%;
+      background-color: #09bb07;
+  }
+  .line_y {
+    width: 3px;
+    height: 100%;
+    height: 18px;
+    display: inline-block;
+    background-color: #09bb07;
+  }
+  view.text text {
+    margin-left: 10px;
+    line-height: 18px;
+  }
+
+  .item {
+    margin-bottom: 7px;
+    height: 126px;
+  }
+
+  .nr11 image{
+  width: 100%;
+  height: 280rpx;
+  }
+
+  .l-c-c {  /*4个服务项目均匀排列*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .node-item {
+      height:100rpx;
+      line-height: 100rpx;
+      border-bottom:1px solid #ddd;
+      font-size:14px;
+      color:#333;
+  }
+
+  .node-title {
+      padding-left:30px;
+  }
+  /*最新案例*/
+  .line{
+      display: flex;
+      margin: 1rpx;
+      border: #ddd solid 1px;
+      padding: 1rpx;
+  }
+  .toutiao{
+      padding: 10rpx;
+  }
+  .toutiao-img{
+      width: 80px;
+      height: 80px;
+  }
+  .two-line-text{
+      padding: 3px;
+      display: flex;
+      flex-direction: column;
+  }
+  .text-center{
+      margin: 0 auto;
+  }
+
+  .txt1{
+      margin: 3px 3px;
+      font-size: 16px;
+      font-weight: bold;
+      white-space: nowrap;
+  }
+  .txt2{
+      margin: 3px 3px;
+      font-size: 12px;
+       color: #656565;
+      white-space: nowrap;
+  }
+  .txt3{
+      margin: 3px 3px;
+      font-size: 13px;
+      color: #656565;
+      white-space: nowrap;
+  }
+
+  .IndexCase_content .IndexCase_content_list{
+      width: 48%;
+      margin-right: 2%;
+
+      padding-bottom: 15px;
+      float: left;
+  }
+
+  .IndexCase_content .IndexCase_content_list .dd {
+      color: #333333;
+      font-size: 12px;
+      line-height: 18px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      padding-top: 10px;
+      text-align:center;
+  }
+  .IndexCase_content .IndexCase_content_list .content_list_img .tp{
+
+      width: 100%;
+      height:134px;
+  }
+
+  .IndexCase_content{
+      width:100%;
+     margin:0 2px;
+     height:auto;
+     overflow:hidden;
+     padding-top: 5px;
+  }
+  .IndexCase_content .IndexCase_content_list .content_list_img{
+      height: 134px;
+  }

@@ -1,0 +1,387 @@
+<view class="page-header page-header-jianzhan" style="background-image: url(https://www.zeiot.cn/m/images/service.jpg);background-size: cover;">
+  <view class="cover"></view>
+  <view class="s">
+    <view class="h1">系统概述</view>
+    <view class="line"></view>
+    <view class="p">易云系统带有上百种功能和组件，用户可根据需要自由组合所需的功能和界面风格，即使不懂编程的非专业人士，也能自由快速的搭建出契合自身需求的物联网应用系统。</view>
+  </view>
+</view>
+
+
+<view class="page-service">
+   <view class="page-titl">
+      <view class="titl">监测显示类</view>
+
+      <view class="tips">显示类功能用于展示采集到的数据信息，用户可以通过展示的内容随时了解环境指标，设备状态等等数据，支持PC、手机的远程展示、现场触控屏展示和LED大屏展示等。</view>
+    </view>
+    <view class="wp">
+      <view class="scl">
+        <view class="data">
+          <view class="titl">参数卡片</view>
+          <view class="m"><image src="https://www.zeiot.cn/style/images/yyxt/cskp.png" style="width: 45px; height: 45px;"></image> </view>
+          <view class="des">展示数值、状型、多状态控制型、开关控制、数值控制型的参数进行展示。</view>
+         </view>
+        <view class="data">
+          <view class="titl">地图场景</view>
+          <view class="m"><image src="https://www.zeiot.cn/style/images/yyxt/dtcj.png" style="width: 45px; height: 45px;"></image> </view>
+          <view class="des">包括地图标准，配置，根据数据自动变换图标，设备位置，轨迹等。</view>
+         </view>
+        <view class="data">
+          <view class="titl">画面组态</view>
+          <view class="m"><image src="https://www.zeiot.cn/style/images/yyxt/hmzt.png" style="width: 45px; height: 45px;"></image> </view>
+          <view class="des">支持多种组件，可以对场景进行自由组态。支持监控点、大屏显示、菜单功能等多种方式。</view>
+         </view>
+        <view class="data">
+          <view class="titl">3D场景</view>
+          <view class="m"><image src="https://www.zeiot.cn/style/images/yyxt/3d.png" style="width: 45px; height: 45px;"></image> </view>
+          <view class="des">将设备或环境制作成3D场景，通过各种组件的动画、状态来模拟现场的实际情况。</view>
+         </view>
+        <view class="data">
+          <view class="titl">大数据展示</view>
+          <view class="m"><image src="https://www.zeiot.cn/style/images/yyxt/dsjzs.png" style="width: 45px; height: 45px;"></image> </view>
+          <view class="des">系统可以实现数据分析内容与报表的自由配置功能</view>
+         </view>
+        <view class="data">
+          <view class="titl">视频监控</view>
+          <view class="m"><image src="https://www.zeiot.cn/style/images/yyxt/spjk.png" style="width: 45px; height: 45px;"></image> </view>
+          <view class="des">可以通过对接视频设备或对接其他视频管理软件实现视频监控。</view>
+         </view>
+        <view class="data">
+          <view class="titl">参数列表</view>
+          <view class="m"><image src="https://www.zeiot.cn/style/images/yyxt/cslb.png" style="width: 45px; height: 45px;"></image></view>
+          <view class="des">列表的方式查看设备下所有监测参数的实时数值，及其他各种详细数据</view>
+         </view>
+        <view class="data">
+          <view class="titl">监控点列表</view>
+          <view class="m"><image src="https://www.zeiot.cn/style/images/yyxt/jkdzs.png" style="width: 45px; height: 45px;"></image> </view>
+          <view class="des">用户可以看到监控点所属机构、封面图片等信息</view>
+         </view>
+		 <view class="data">
+          <view class="titl">监控点展示</view>
+          <view class="m"><image src="https://www.zeiot.cn/style/images/yyxt/jkdlb.png" style="width: 45px; height: 45px;"></image> </view>
+          <view class="des">监控点管理功能，能够对项目下所有监控点进行总览</view>
+         </view>
+		<view class="data">
+          <view class="titl">轨迹定位</view>
+          <view class="m"><image src="https://www.zeiot.cn/style/images/yyxt/dtcj.png" style="width: 45px; height: 45px;"></image> </view>
+          <view class="des">实时定位和轨迹查询</view>
+         </view>
+
+      </view>
+    </view>
+  </view>
+
+  <view class="page-service">
+    <view class="page-titl">
+	<view class="titl">逻辑控制类</view>
+      <view class="titl-line"></view>
+      <view class="tips">控制类功能用于控制接入系统的各种设备，包括控制开关、运行模式、运转效率等等，支持远程、现场控制，并可以通过设置实现自动控制和连锁控制。</view>
+    </view>
+    <view class="wp">
+      <view class="scl">
+<view class="data">
+          <view class="titl">状态控制</view>
+          <view class="m"><image src="https://www.zeiot.cn/style/images/yyxt/ztkz.png" style="width: 45px; height: 45px;"></view>
+         <view class="des">自带的设备控制功能，可以实现按状态控制设备。</view> </view>
+<view class="data">
+          <view class="titl">数值控制</view>
+          <view class="m"><image src="https://www.zeiot.cn/style/images/yyxt/szkz.png" style="width: 45px; height: 45px;"></view>
+          <view class="des">设备控制功能，可以实现按数值控制设备。</view> </view>
+<view class="data">
+          <view class="titl">自动控制</view>
+          <view class="m"><image src="https://www.zeiot.cn/style/images/yyxt/zykz.png" style="width: 45px; height: 45px;"></view>
+          <view class="des">用户可以通过策略设置，设定好触发条件，当条件达到标准时，即自动控制设备进行相应的操作。</view>
+           </view>
+<view class="data">
+          <view class="titl">连锁控制</view>
+          <view class="m"><image src="https://www.zeiot.cn/style/images/yyxt/lskz.png" style="width: 45px; height: 45px;"></view>
+          <view class="des">通过自动控制逻辑（参数策略），实现连锁控制。</view>
+           </view>
+            </view>
+      </view>
+    </view>
+  </view>
+
+<view class="page-service">
+    <view class="page-titl">
+	<view class="titl">报警预警类</view>
+      <view class="titl-line"></view>
+      <view class="tips">报警类功能用于检测、分析各类异常数据，当设备、环境指标超过限度时，系统会自动通过多渠道向用户发送报警信息，提醒用户及时处理，并生成相应记录，便于后续改进。</view>
+    </view>
+    <view class="wp">
+      <view class="scl">
+        <view class="data">
+          <view class="titl">报警设置</view>
+          <view class="m"><image src="https://www.zeiot.cn/style/images/yyxt/bjsz.png" style="width: 45px; height: 45px;"></view>
+            <view class="des">配置报警功能，进行网页、app的声音、文字报警</view>
+           </view><view class="data">
+          <view class="titl">报警记录</view>
+          <view class="m"><image src="https://www.zeiot.cn/style/images/yyxt/bjjl.png" style="width: 45px; height: 45px;"></view>
+           <view class="des">支持报警记录功能，历次报警数据查看</view>
+           </view><view class="data">
+          <view class="titl">预警功能</view>
+          <view class="m"><image src="https://www.zeiot.cn/style/images/yyxt/yjgn.png" style="width: 45px; height: 45px;"></view>
+           <view class="des">系统会将设备故障数据提炼出一条普适性的数据，后续其他设备出现此类异常时，系统会在此时发送预警。</view>
+           </view><view class="data">
+          <view class="titl">报警原因</view>
+          <view class="m"><image src="https://www.zeiot.cn/style/images/yyxt/bjyy.png" style="width: 45px; height: 45px;"></view>
+           <view class="des">支持为每个报警备注“报警原因”，以便管理员对报警状况进行掌握。</view>
+           </view>
+      </view>
+    </view>
+  </view>
+
+
+  <view class="page-service">
+    <view class="page-titl">
+	<view class="titl">数据报表类</view>
+      <view class="titl-line"></view>
+      <view class="tips">统计类功能用于分析系统中集成的各种信息，并通过表格、图片进行汇总、展示，支持自定义表格，进行任意数据分统计分析，为用户决策制定提供依据。</view>
+    </view>
+    <view class="wp">
+<view class="scl">
+        <view class="data"> <a href="/plus/view.php?aid=103">
+          <view class="titl">数据源配置</view>
+          <view class="m"><image src="https://www.zeiot.cn/style/images/yyxt/sjypz.png" style="width: 45px; height: 45px;"></view>
+          <view class="des">用户可以为监控点、参数卡片等多种功能配置数据源。</view>
+           </view><view class="data"> <a target="_blank" href="/plus/view.php?aid=104">
+          <view class="titl">报表</view>
+          <view class="m"><image src="https://www.zeiot.cn/style/images/yyxt/bb.png" style="width: 45px; height: 45px;"></view>
+          <view class="des">支持用户按照多种方式统计数据，可以是日报表、月报表、年报表或区间报表。</view>
+           </view><view class="data"> <a target="_blank" href="/plus/view.php?aid=105">
+          <view class="titl">数据图表</view>
+          <view class="m"><image src="https://www.zeiot.cn/style/images/yyxt/sjtb.png" style="width: 45px; height: 45px;"></view>
+          <view class="des">根据监测的数据生成各种图表，如曲线、柱状图、饼图等。</view>
+           </view><view class="data"> <a target="_blank" href="/plus/view.php?aid=106">
+          <view class="titl">参数分组</view>
+          <view class="m"><image src="https://www.zeiot.cn/style/images/yyxt/csfz.png" style="width: 45px; height: 45px;"></view>
+          <view class="des">对系统中存储的参数数据进行分组管理的功能，用户可以自行设定类型分组。</view>
+           </view><view class="data"> <a target="_blank" href="/plus/view.php?aid=107">
+          <view class="titl">历史数据</view>
+          <view class="m"><image src="https://www.zeiot.cn/style/images/yyxt/lssj.png" style="width: 45px; height: 45px;"></view>
+          <view class="des">用户可以按照参数、设备、所属机构、时间等要素对历史数据进行查阅。</view>
+           </view><view class="data"> <a target="_blank" href="/plus/view.php?aid=108">
+          <view class="titl">事故追忆</view>
+          <view class="m"><image src="https://www.zeiot.cn/style/images/yyxt/sgzy.png" style="width: 45px; height: 45px;"></view>
+          <view class="des">系统会将异常数据前后的所有连续数据存储在另一个分区中，以确保数据不会被删除。</view>
+           </view><view class="data"> <a target="_blank" href="/plus/view.php?aid=109">
+          <view class="titl">内存变量</view>
+          <view class="m"><image src="https://www.zeiot.cn/style/images/yyxt/ncbl.png" style="width: 45px; height: 45px;"></view>
+          <view class="des">允许用户直接通过函数计算，把采集到的数据计算后向用户展示。</view>   </view>
+		  <view class="data"> <a target="_blank" href="/plus/view.php?aid=478">
+          <view class="titl">自定义表单</view>
+          <view class="m"><image src="https://www.zeiot.cn/style/images/yyxt/zdybg.png" style="width: 45px; height: 45px;"></view>
+          <view class="des">设置信息表单，可以用于收集用户反馈、评价等</view>  </view>
+		  <view class="data"> <a target="_blank" href="/plus/view.php?aid=479">
+          <view class="titl">能耗分析</view>
+          <view class="m"><image src="https://www.zeiot.cn/style/images/yyxt/nhfx.png" style="width: 45px; height: 45px;"></view>
+          <view class="des">专为能耗系统设置的分析模块，综合展示能耗使用状况</view>		     </view>
+		  		  <view class="data">
+          <view class="titl">开发中</view>
+          <view class="m"><image src="https://www.zeiot.cn/style/images/yyxt/kfz1.jpg" style="width: 45px; height: 45px;"></view>
+          <view class="des">更多功能持续开发中...</view>			    </view>
+
+      </view>
+    </view>
+  </view>
+
+<view class="page-service">
+    <view class="page-titl">
+	<view class="titl">智慧管理类</view>
+      <view class="titl-line"></view>
+      <view class="tips">管理类功能用于辅助各种企业管理工作，除了对系统本身进行管理外，还可以对企业其他业务形成帮助，提高整个企业的工作效率，充分发挥物联网的优势。</view>
+    </view>
+    <view class="wp">
+      <view class="scl">
+        <view class="data"> <a target="_blank" href="/plus/view.php?aid=111">
+          <view class="titl">项目管理</view>
+          <view class="m"><image src="https://www.zeiot.cn/style/images/yyxt/xmgl.png" style="width: 45px; height: 45px;"></view>
+          <view class="des">支持一个系统下建立多个项目，各项目之间管理、数据、设备等内容全部相互独立。</view>
+           </view>
+		  <view class="data"> <a target="_blank" href="/plus/view.php?aid=112">
+          <view class="titl">用户管理</view>
+          <view class="m"><image src="https://www.zeiot.cn/style/images/yyxt/yhgl.png" style="width: 45px; height: 45px;"></view>
+          <view class="des">对项目中的账户密码进行分配，是某一角色类别下所有的用户，可以具体到个人。</view>
+           </view>
+		  <view class="data"> <a target="_blank" href="/plus/view.php?aid=114">
+          <view class="titl">机构管理</view>
+          <view class="m"><image src="https://www.zeiot.cn/style/images/yyxt/jggl.png" style="width: 45px; height: 45px;"></view>
+          <view class="des">支持无限层级的机构管理</view>
+           </view>
+		  <view class="data"> <a target="_blank" href="/plus/view.php?aid=115">
+          <view class="titl">角色管理</view>
+          <view class="m"><image src="https://www.zeiot.cn/style/images/yyxt/jsgl.png" style="width: 45px; height: 45px;"></view>
+          <view class="des">为不同用户分配不同角色</view>
+           </view>
+		  <view class="data"> <a target="_blank" href="/plus/view.php?aid=116">
+          <view class="titl">权限管理</view>
+          <view class="m"><image src="https://www.zeiot.cn/style/images/yyxt/qxgl.png" style="width: 45px; height: 45px;"></view>
+          <view class="des">为不同用户分配不同权限，权限可自定义分配</view>
+           </view>
+		  <view class="data"> <a target="_blank" href="/plus/view.php?aid=117">
+          <view class="titl">设备管理</view>
+          <view class="m"><image src="https://www.zeiot.cn/style/images/yyxt/sbgl.png" style="width: 45px; height: 45px;"></view>
+          <view class="des">设备管理、调试、自动增加参数、配置参数</view>
+           </view>
+		  <view class="data"> <a target="_blank" href="/plus/view.php?aid=118">
+          <view class="titl">驱动管理</view>
+          <view class="m"><image src="https://www.zeiot.cn/style/images/yyxt/qdgl.png" style="width: 45px; height: 45px;"></view>
+          <view class="des">开放硬件驱动接口，用户可自行添加硬件产品和通讯协议</view>
+           </view>
+		  <view class="data"> <a target="_blank" href="/plus/view.php?aid=119">
+          <view class="titl">任务管理</view>
+          <view class="m"><image src="https://www.zeiot.cn/style/images/yyxt/rwgl.png" style="width: 45px; height: 45px;"></view>
+          <view class="des">支持人给人，设备给人自动发送任务</view>
+           </view>
+		  <view class="data"> <a target="_blank" href="/plus/view.php?aid=120">
+          <view class="titl">巡检管理</view>
+          <view class="m"><image src="https://www.zeiot.cn/style/images/yyxt/xjgl.png" style="width: 45px; height: 45px;"></view>
+          <view class="des">对巡检设备进行分类、录入、绑定NFC标签等</view>
+           </view>
+		  <view class="data"> <a target="_blank" href="/plus/view.php?aid=121">
+          <view class="titl">生产线管理</view>
+          <view class="m"><image src="https://www.zeiot.cn/style/images/yyxt/scxgl.png" style="width: 45px; height: 45px;"></view>
+          <view class="des">支持生产线监控，可将生产线上各数据接入系统，进行全面监管</view>
+           </view>
+		  <view class="data"> <a target="_blank" href="/plus/view.php?aid=123">
+          <view class="titl">时间管理</view>
+          <view class="m"><image src="https://www.zeiot.cn/style/images/yyxt/sjgl.png" style="width: 45px; height: 45px;"></view>
+          <view class="des">用户为系统配置时间模板，让大部分功能在相应的时间模板下运行</view>
+           </view>
+		  <view class="data"> <a target="_blank" href="/plus/view.php?aid=124">
+          <view class="titl">管理记录 </view>
+          <view class="m"><image src="https://www.zeiot.cn/style/images/yyxt/czjl.png" style="width: 45px; height: 45px;"></view>
+          <view class="des">分为操作记录和控制记录，便于找到操作人</view>
+           </view>
+		  <view class="data"> <a target="_blank" href="/plus/view.php?aid=125">
+          <view class="titl">文档管理 </view>
+          <view class="m"><image src="https://www.zeiot.cn/style/images/yyxt/wdgl.png" style="width: 45px; height: 45px;"></view>
+          <view class="des">将文件分门别类上传到云端并加密，便于随时随地读取</view>
+           </view>
+		  <view class="data"> <a target="_blank" href="/plus/view.php?aid=126">
+          <view class="titl">模板管理</view>
+          <view class="m"><image src="https://www.zeiot.cn/style/images/yyxt/mbgl.png" style="width: 45px; height: 45px;"></view>
+          <view class="des">用户可以使用各种模板快速搭建功能模块、监控点、甚至整个项目</view>
+           </view>
+		  <view class="data">
+          <view class="titl">设备运维</view>
+          <view class="m"><image src="https://www.zeiot.cn/style/images/yyxt/sbyw.png" style="width: 45px; height: 45px;"></view>
+          <view class="des">搭建好的组态画面，可将该模块设置为项目登陆首页</view>
+           </view>
+      <view class="data"> <a target="_blank" href="/plus/view.php?aid=444">
+          <view class="titl">知识库</view>
+          <view class="m"><image src="https://www.zeiot.cn/style/images/yyxt/zskgl.png" style="width: 45px; height: 45px;"></view>
+          <view class="des">公开的知识可以提供给所有人在“知识检索”中进行检索</view>
+           </view>
+
+          <view class="data"> <a target="_blank" href="/plus/view.php?aid=486">
+          <view class="titl">虚拟设备</view>
+          <view class="m"><image src="https://www.zeiot.cn/style/images/yyxt/xnsb.png" style="width: 45px; height: 45px;"></view>
+          <view class="des">配置虚拟设备，统计多设备参数运算结果</view>
+           </view>
+      <view class="data"> <a target="_blank" href="/plus/view.php?aid=485">
+          <view class="titl">自定义脚本</view>
+          <view class="m"><image src="https://www.zeiot.cn/style/images/yyxt/zdyjb.png" style="width: 45px; height: 45px;"></view>
+          <view class="des">通过脚本，自定义多个参数运算规则，展示和最终结果</view>
+           </view>
+
+		  <view class="data">
+          <view class="titl">开发中</view>
+          <view class="m"><image src="https://www.zeiot.cn/style/images/yyxt/kfz1.jpg" style="width: 45px; height: 45px;"></view>
+          <view class="des">更多功能持续开发中...</view>
+           </view>
+
+		  <view class="data">
+          <view class="titl">开发中</view>
+          <view class="m"><image src="https://www.zeiot.cn/style/images/yyxt/kfz1.jpg" style="width: 45px; height: 45px;"></view>
+          <view class="des">更多功能持续开发中...</view>
+           </view>
+      </view>
+    </view>
+  </view>
+
+<view class="page-service">
+    <view class="page-titl">
+	<view class="titl">大数据相关</view>
+      <view class="titl-line"></view>
+      <view class="tips">大数据相关功能除了展示企业本身大量数据外，还允许系统对接行业内的大数据，通过数据分析对比，挖掘更多有利信息，并提供相应解决方案等等。</view>
+    </view>
+    <view class="wp">
+      <view class="scl">
+        <view class="data">
+          <view class="titl">大数据展示</view>
+          <view class="m"><image src="https://www.zeiot.cn/style/images/yyxt/dsjzs.png" style="width: 45px; height: 45px;"></view>
+          <view class="des">将系统中任意数据在界面中进行展示，</view>
+           </view><view class="data">
+          <view class="titl">专家系统</view>
+          <view class="m"><image src="https://www.zeiot.cn/style/images/yyxt/zjxt.png" style="width: 45px; height: 45px;"></view>
+          <view class="des">行业内人员为您的系统提供技术支持</view>
+           </view><view class="data">
+          <view class="titl">方案推荐</view>
+          <view class="m"><image src="https://www.zeiot.cn/style/images/yyxt/fatj.png" style="width: 45px; height: 45px;"></view>
+          <view class="des">为企业推荐附近厂家、维修服务等</view>
+           </view>
+		  <view class="data">
+          <view class="titl">开发中</view>
+          <view class="m"><image src="https://www.zeiot.cn/style/images/yyxt/kfz1.jpg" style="width: 45px; height: 45px;"></view>
+          <view class="des">更多功能持续开发中...</view>
+           </view>
+      </view>
+    </view>
+  </view>
+
+<view class="page-service" style="padding-bottom:330px;">
+    <view class="page-titl">
+	<view class="titl">产品溯源类</view>
+      <view class="titl-line"></view>
+      <view class="tips">提供产品批次管理、溯源码创建、物流信息、库存管理等多种溯源内容，配合远程监测、视频管理等功能，进一步保障产品来源及途径可追溯</view>
+    </view>
+    <view class="wp">
+      <view class="scl">
+        <view class="data"> <a target="_blank" href="/plus/view.php?aid=480">
+          <view class="titl">综合展示</view>
+          <view class="m"><image src="https://www.zeiot.cn/style/images/yyxt/zhzs.png" style="width: 45px; height: 45px;"></view>
+          <view class="des">溯源产品追溯统计、库存信息等多种数据的综合展示</view>
+           </view>
+
+		 <view class="data"> <a target="_blank" href="/plus/view.php?aid=481">
+          <view class="titl">批次管理</view>
+          <view class="m"><image src="https://www.zeiot.cn/style/images/yyxt/pcgl.png" style="width: 45px; height: 45px;"></view>
+          <view class="des">提供各批次产品的生产批号、日期、产品详情等信息</view>
+           </view>
+
+		  <view class="data"> <a target="_blank" href="/plus/view.php?aid=482">
+          <view class="titl">产品管理</view>
+          <view class="m"><image src="https://www.zeiot.cn/style/images/yyxt/cpgl.png" style="width: 45px; height: 45px;"></view>
+          <view class="des">提供产品类别、产品详细介绍等信息，供用户查阅</view>
+           </view>
+		 <view class="data"> <a target="_blank" href="/plus/view.php?aid=483">
+          <view class="titl">库房管理</view>
+          <view class="m"><image src="https://www.zeiot.cn/style/images/yyxt/kcgl.png" style="width: 45px; height: 45px;"></view>
+          <view class="des">支持库房详情、出入库管理等信息的输入和查询</view>
+           </view>
+              </view>
+    </view>
+  </view>
+<!--**************************首页表单******************* -->
+<view class="info-box">
+<view class="sdd">
+申请试用账号或咨询
+</view>
+<form bindsubmit="formSubmit" bindreset="formReset">
+  <view class="section1">
+    <input name="xingming" placeholder="请输入姓名" class="section11"/>
+  </view>
+    <view class="section2">
+    <input name="xingbie" placeholder="您的电话" class="section11" />
+  </view>
+    <view class="section3">
+    <input name="aihao" placeholder="请输入您的需求" class="section11"  />
+  </view>
+  <view class="btn-area4">
+    <button formType="submit" class="btn-area41">提交申请</button>
+    <!--* <button formType="reset">重置</button>-->
+  </view>
+</form>
+</view>
+<!--**************************首页表单******************* -->

@@ -1,0 +1,49 @@
+<view class='gy1'>
+  <image src='../../images/qyln.jpg'></image>
+</view>
+
+<view class='text'>
+   <view class='line_y'></view>
+   <text>产品中心</text>
+</view>
+<view>
+
+<!--分割线  分割线  分割线  分割线  分割线  分割线  分割线  分割线  分割线-->
+<view class="IndexCase_content">
+<view class="IndexCase_content clear">
+
+<block s-for="{{chanpin}}" wx:key="item.id">
+ <view class="IndexCase_content_list">
+ <view class="content_list_img">
+ <navigator url="/pages/chanpin/article?id={{item.id}}" hover-class="navigator-hover" >
+    <image class="tp" src="https://www.zeiot.cn{{item.litpic}}"></image>
+     </navigator>
+    </view>
+        <view class="dd">
+     <navigator url="/pages/chanpin/article?id={{item.id}}" hover-class="navigator-hover" >
+      <text class="dd" style="font-size:13px;">{{item.title}}</text>
+            </navigator>
+    </view>
+     </view>
+</block>
+    </view>
+</view>
+<!--分割线  分割线  分割线  分割线  分割线  分割线  分割线  分割线  分割线-->
+<!--分割线  分割线  分割线  分割线  分割线  分割线  分割线
+<block s-for="{{chanpin}}" wx:key="item.id">
+
+ <view class="line toutiao">
+
+    <image class="toutiao-img" src="https://www.zeiot.cn{{item.litpic}}"></image>
+    <navigator url="/pages/chanpin/article?id={{item.id}}" hover-class="navigator-hover" >
+    <view class="two-line-text">
+      <text class="text-center txt1">{{item.title}}</text>
+      <text class="text-center txt2">发布时间：2020年/3月</text>
+      <text class="text-center txt3">中易云物联网云平台</text>
+      </navigator>
+    </view>
+
+
+    </block>
+</view>
+分割线  分割线-->

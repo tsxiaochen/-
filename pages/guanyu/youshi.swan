@@ -1,0 +1,17 @@
+
+<view class='gy1'>
+  <image src='../../images/qyln.jpg'></image>
+</view>
+
+<view class='text'>
+   <view class='line_y'></view>
+   <text>公司优势</text>
+</view>
+<view>
+
+
+<view style="font-size:14px;margin-top:20px;margin-left:10px; margin-right:10px;letter-spacing:1px;font-size:14px" >  公司自有核心技术的基于云计算的物联网综合管控共享服务平台（物联网云平台），具有40几种基础功能，上百种组件，可以由非专业人士，自由、快速的搭建适合各种物联网应用场景的系统，并能实现对功能、算法、协议、大数据挖掘等的共享、交互，同时提供应用市场，可广泛的整合多方资源。平台已经在天安门、西门子、中国石油、河北钢铁、万科地产、南湖世界园艺博览会等广泛使用。</view>
+
+
+
+</view>

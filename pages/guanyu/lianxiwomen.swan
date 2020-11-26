@@ -1,0 +1,26 @@
+
+<view class='gy1'>
+  <image src='../../images/qyln.jpg'></image>
+</view>
+
+<view class='text'>
+   <view class='line_y'></view>
+   <text>联系我们</text>
+</view>
+<view>
+
+
+
+<view style="font-size:14px;margin-top:20px;">
+<view style="font-size:18px;margin-top:20px;margin-left:22px;letter-spacing:1px;font-size:14px" >中易云（唐山）物联网科技有限公司</view>
+<view style="font-size:14px;margin-top:20px;margin-left:22px;letter-spacing:1px;font-size:14px">地址:唐山市高新技术产业园区享达科技园</view>
+<view style="font-size:14px;margin-top:20px;margin-left:22px;letter-spacing:1px;font-size:14px">邮编:063000</view>
+
+<view style="font-size:14px;margin-top:20px;margin-left:20px;letter-spacing:1px;font-size:14px">电子邮件/zeiot@zeiot.cn</view>
+</view>
+
+<view style="font-size:14px;margin-top:20px;">
+    <view class="wx-cell">
+      <button type="default" bindtap="calling">点击拨打客服电话</button>
+    </view>
+</view>

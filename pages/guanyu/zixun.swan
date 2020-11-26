@@ -1,0 +1,19 @@
+<!--detail.wxml-->
+<view class="container">
+  <view class="topic-detail">
+    <view class="topic-owner">
+        <view class="topic-tit">{{detail.title}}</view>
+    </view>
+    <view class="topic-info">
+        <text><text>作者:中易云</text>&nbsp;/&nbsp;</text>发布时间:{{article.senddate}}</text></text>
+
+    </view>
+    <view class="topic-desc">
+
+     <view><rich-text nodes="{{detail.body}}" style=" width: 100%;
+        height: 100%;" bindtap="tap"></rich-text></view>
+
+    </view>
+  </view>
+
+</view>

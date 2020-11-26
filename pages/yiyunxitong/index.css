@@ -1,0 +1,145 @@
+
+element.style {
+    background-image: url(https://www.zeiot.cn/m/images/service.jpg);
+    background-size: cover;
+}
+.page-header {
+    height: 180px;
+    position: relative;
+    background-size: cover;
+}
+.page-header .s {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 50%;
+    margin-top: -36px;
+    z-index: 2;
+}
+.page-header .h1 {
+    margin-left: 15px;
+    font-size: 20px;
+    line-height: 18px;
+    color: #eee;
+}
+.page-header .p {
+    margin-left: 15px;
+    font-size: 12px;
+    color: #bbb;
+    line-height: 18px;
+}
+
+
+
+.page-titl .titl {
+    font-size: 20px;
+    text-align: center;
+    color: #333;
+    line-height:80px;
+}
+.page-service .wp .scl {
+    margin: 12px;
+    border-right: 1px #eee solid;
+    border-top: 1px #eee solid;
+    border-width: 0.5px;
+    content: ".";
+    clear: both;
+
+
+}
+
+.page-titl .tips {
+    font-size: 13px;
+    line-height: 16px;
+    color: #aaa;
+    padding-left:10px;
+    padding-right:10px;
+}
+.page-service .data {
+    float:left;
+    width:50%;
+    text-align:center;
+    border-left:1px #eee solid;
+    border-bottom:1px #eee solid;
+    border-right:1px #eee solid;
+    border-width:0.3px;
+}
+.page-service .data .titl {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+
+}
+.titl{
+    padding: .1rem .22rem .18rem .22rem;
+
+}
+
+
+
+.page-service .m {
+    margin-top:-55px;
+}
+.page-service .data .des {
+    height: 54px;
+    line-height: 18px;
+    font-size: 12px;
+    color: #aaa;
+}
+
+.page-service .m .image{
+    width: auto;
+    height: 30px;
+}
+.page-service .data .aaa {
+    display: block;
+    padding: 12px 8px;
+    border-left: 1px #eee solid;
+    border-bottom: 1px #eee solid;
+    border-width: 0.5px;
+}
+.page-service .wp{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: 0;
+    outline: none;
+
+}
+/* 表单样式*/
+.info-box .section11{
+    display: block;
+    width: 100%;
+    height: 32px;
+    box-sizing: border-box;
+    padding: 6px;
+    background-color: #ffffff;
+    background-image: none;
+    border: 0.5px #ccc solid;
+    border-radius: 0;
+    font-size: 13px;
+    color: #888;
+    margin-bottom:8px;
+
+    }
+
+.info-box{
+    padding: 0 15px;
+    padding-top: 15px;
+    background:#0595c7;
+}
+
+.info-box .btn-area4{
+    padding-bottom:6px;
+}
+.info-box .sdd{
+    font-size:18px;
+   color:#fff;
+   text-align:center;
+   margin-bottom:8px;
+}
+.btn-area41{
+
+    margin:0 auto;
+    line-height:1.5
+}

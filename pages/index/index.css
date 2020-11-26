@@ -1,0 +1,418 @@
+/**
+ * @demo page component for button
+ * @author lvlei
+ */
+.slide-image{
+    height: 150px;
+    width: 100%;
+}
+.text{
+    background-color: #dddedf;
+    width: 100%;
+    height: 40px;
+    position: absolute;
+}
+
+/**************首页服务项目样式*****************/
+.text-line{
+ width: 2px;
+ height: 20px;
+ background-color: green;
+
+ margin-top: 10px;
+
+}
+.fuwu{
+   font-size: 14px;
+   position: absolute;
+   left:10px;
+   top: 16px;
+   font-family: 黑体;
+}
+.index-nav{
+
+    width: 100%;
+    height:140px;
+
+}
+.fuwu1 text{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 5px;
+    bottom: 186px;
+}
+
+
+
+
+/*分类*/
+.index-nav {
+  height: 80px;
+  /*background: red;*/
+  display: flex;
+  flex-direction: row;
+  /*align-items: center;*/
+  background-color: #fff;
+  color: #646464;
+}
+
+.index-nav view {
+  flex: 1;
+  flex-direction: column;
+  border-right: 1px solid #F2f2f2;
+}
+.index-nav image {
+  width: 38px;
+  height: 38px;
+}
+.index-nav text {
+  font-size: 16px;
+}
+
+.text{ background-color: #F2f2f2;}
+
+view.text {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 10px 10px 10px 12px;
+  font-size: 15px;
+  color: #656565;
+}
+
+view.text:before {
+    position: absolute;
+    display: block;
+    content: ' ';
+    left: -5px;
+    width: 2px;
+    height: 100%;
+    background-color: #09bb07;
+}
+.line_y {
+  width: 3px;
+  height: 100%;
+  height: 18px;
+  display: inline-block;
+  background-color: #09bb07;
+}
+view.text text {
+  margin-left: 10px;
+  line-height: 18px;
+}
+
+.item {
+  margin-bottom: 7px;
+  height: 126px;
+}
+
+.nr11 image{
+width: 100%;
+height: 280rpx;
+}
+
+.l-c-c {  /*4个服务项目均匀排列*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.node-item {
+    height:100rpx;
+    line-height: 100rpx;
+    border-bottom:1px solid #ddd;
+    font-size:14px;
+    color:#333;
+}
+
+.node-title {
+    padding-left:30px;
+}
+/*最新案例*/
+.line{
+    display: flex;
+    margin: 1rpx;
+    border: #ddd solid 1px;
+    padding: 1rpx;
+}
+.toutiao{
+    padding: 10rpx;
+}
+.toutiao-img{
+    width: 80px;
+    height: 80px;
+}
+.two-line-text{
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+}
+.text-center{
+    margin: 0 auto;
+}
+
+.txt1{
+    margin: 3px 3px;
+    font-size: 16px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+.txt2{
+    margin: 3px 3px;
+    font-size: 12px;
+     color: #656565;
+    white-space: nowrap;
+}
+.txt3{
+    margin: 3px 3px;
+    font-size: 13px;
+    color: #656565;
+    white-space: nowrap;
+}
+
+
+/**新增内容css开始**/
+.navt{
+    font-size: 20px;
+}
+.main{
+    width: 94%;
+    margin: 0 auto
+  }
+.swiper image{
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+.iconnav{
+    width: 50%;
+    float: left;
+    padding:30rpx 0;
+  }
+.iconnav image{
+  width: 80rpx;
+  height:86rpx;
+  vertical-align: middle;
+
+}
+.navbox{
+  background: #fff;
+  overflow: hidden;
+  margin-top:20rpx;
+  margin-bottom:20rpx;
+}
+.iconimg{
+width: 40%;
+display: inline-block;
+text-align: center
+}
+.navname{
+  font-size: 36rpx;
+  color: #333;
+ text-align: left;
+  border-right: 1px solid #ebebeb;
+  width: 59%;
+  display: inline-block;
+}
+.navname2{
+  font-size: 36rpx;
+  color: #333;
+ text-align: left;
+  width: 59%;
+  display: inline-block;
+}
+.bot{
+  border-bottom: 1px solid #ebebeb
+}
+.btit{
+  color:#666666;
+  font-size: 30rpx;
+}
+.searpro{
+padding-bottom:40rpx;
+}
+.searpro .kc_c{
+  margin-top:10rpx;
+}
+.searpro image{
+  width: 100%;
+  height: 140rpx;
+}
+.kc image{
+  width: 100%;
+  height: 170rpx;
+  margin-top: 20rpx
+}
+.dl{
+  position:none;
+display:block;
+margin-left:auto;
+margin-right:auto;
+
+box-sizing:border-box;
+font-size:18px;
+text-align:center;
+text-decoration:none;
+line-height:0;
+border-radius:0;
+-webkit-tap-highlight-color:transparent;
+overflow:hidden;
+color:#000000;
+background-color:#fff;
+border-bottom: 1px solid #e8e8e8;
+
+}
+.pg{
+
+position:absoule;
+line-height:17px;
+
+}
+button::after {
+  border:none;
+}
+
+/**新增内容css结尾**/
+
+/**新增内容css开始**/
+
+.index-service {
+    padding:30px 6px;
+}
+
+.index-f .index-title {
+    text-align:center;
+    font-size:20px;
+    line-height:24px;
+    color: #333;
+}
+
+.index-f .index-title-sub {
+    text-align:center;
+    font-size:13px;
+    color: #999;
+    line-height:30px;
+    padding-bottom:6px;
+}
+
+.index-service .data {
+        float: left;
+        width: 50%;
+        margin-bottom: 4px;
+    }
+
+.index-service .dt {
+        text-align: center;
+        font-size: 17px;
+        margin-bottom:-40px;
+    }
+
+.index-service .m {
+        text-align: center;
+        padding: 3px 0;
+    }
+.index-service .dd {
+        font-size: 13px;
+        color: #aaa;
+        line-height: 17px;
+        height: 51px;
+        overflow: hidden;
+        text-align: center;
+    }
+
+.index-service .m image {
+        height: 48px;
+       width: 48px;
+    }
+
+.index-service .des {
+        font-size: 12px;
+        color: #aaa;
+        line-height: 17px;
+        height: 51px;
+        overflow: hidden;
+        text-align: center;
+    }
+
+.index-case .dt {
+        text-align: center;
+        font-size: 17px;
+
+    }
+
+.index-news .m image {
+        width: 100%;
+        height: 90px;
+    }
+
+.index-news .cl2 {
+        display: block;
+        height: 28px;
+        line-height: 28px;
+        overflow: hidden;
+        font-size: 13px;
+        padding-left: 10px;
+        color: #555;
+    }
+
+    .index-news .cl1 {
+        float: right;
+        margin-left: 10px;
+        font-size: 12px;
+        color: #aaa;
+    }
+    .index-f {
+        padding: 30px 12px;
+    }
+
+    .lyc-technical-main {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 1.5vh 0;
+        margin-left: -4vw;
+    }
+
+    .lyc-technical-main .cc1{
+        width: 40vw;
+        flex-grow: 1;
+        margin-left: 4vw;
+    }
+
+/* 表单样式*/
+.info-box .section11{
+    display: block;
+    width: 100%;
+    height: 32px;
+    box-sizing: border-box;
+    padding: 6px;
+    background-color: #ffffff;
+    background-image: none;
+    border: 0.5px #ccc solid;
+    border-radius: 0;
+    font-size: 13px;
+    color: #888;
+    margin-bottom:8px;
+
+    }
+
+.info-box{
+    padding: 0 15px;
+    padding-top: 15px;
+    background:#0595c7;
+}
+
+.info-box .btn-area4{
+    padding-bottom:6px;
+}
+.info-box .sdd{
+    font-size:18px;
+   color:#fff;
+   text-align:center;
+   margin-bottom:8px;
+}
+.btn-area41{
+
+    margin:0 auto;
+    line-height:1.5
+}

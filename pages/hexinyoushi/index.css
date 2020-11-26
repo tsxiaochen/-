@@ -1,0 +1,157 @@
+.gy1 image{
+    width: 750rpx;
+    height: 200rpx;
+  }
+  .gy1{
+    background:#fff;
+  }
+  .line_y{
+    width: 3px;
+    height: 18px;
+    display: inline-block;
+    background-color:limegreen;
+  }
+  view.text{
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 10px 10px 10px 10px;
+    font-size: 18px;
+    color: aliceblue;
+    background-color: silver;
+  }
+  view.text text{
+   margin-left: 10px;
+   line-height: 18px;
+  }
+
+  .wx-cells {
+    width: 100%;
+    margin-top: 15rpx;
+    font-size: 34rpx;
+    border-top: 1rpx solid #d9d9d9;
+    border-bottom: 1rpx solid #d9d9d9;
+    background-color: #fff;
+  }
+
+  .wx-cell {
+    padding: 20rpx 25rpx;
+    display: flex;
+    align-items: center;
+  }
+
+  .wx-cell-icon{
+    width: 56rpx;
+    height: 56rpx;
+  }
+
+  .wx-cell-text{
+    flex: 1;
+    margin-left: 30rpx;
+  }
+
+  .wx-cell-arrow{
+    width: 30rpx;
+    height: 30rpx;
+    margin-left: 10rpx;
+  }
+
+  .wx-cell-inner{
+    padding: 30rpx 30rpx 30rpx 0;
+    margin-left: 30rpx;
+    border-bottom: 1rpx solid #d9d9d9;
+  }
+
+  .wx-cell-left{
+    font-size: 35rpx;
+    align-items: center;
+  }
+
+  .wx-cell-right{
+    align-items: center;
+  }
+
+  .wx-cell-right-text{
+    font-size: 30rpx;
+    color: #808080;
+  }
+  .no-border{
+    border: 0;
+  }
+
+  .view-content{
+      background:#fff;
+  }
+
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.panel .header {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.view-content .s {
+    line-height: 1.65em;
+    font-size: 13px;
+    overflow: hidden;
+    text-align: justify;
+    word-wrap: break-word;
+    color: #666;
+}
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    /* padding-left: 15px; */
+    line-height: 1.65em;
+    font-size: 13px;
+}
+.nr1 {
+    padding-top: 5px;
+}
+.sub-panel {
+    padding-top: 20px;
+}
+/* 表单样式*/
+.info-box .section11{
+    display: block;
+    width: 100%;
+    height: 32px;
+    box-sizing: border-box;
+    padding: 6px;
+    background-color: #ffffff;
+    background-image: none;
+    border: 0.5px #ccc solid;
+    border-radius: 0;
+    font-size: 13px;
+    color: #888;
+    margin-bottom:8px;
+
+    }
+
+.info-box{
+    padding: 0 15px;
+    padding-top: 15px;
+    background:#0595c7;
+}
+
+.info-box .btn-area4{
+    padding-bottom:6px;
+}
+.info-box .sdd{
+    font-size:18px;
+   color:#fff;
+   text-align:center;
+   margin-bottom:8px;
+}
+.btn-area41{
+
+    margin:0 auto;
+    line-height:1.5
+}

@@ -1,0 +1,169 @@
+<view class='gy1'>
+  <image src='../../images/qyln.jpg'></image>
+</view>
+
+<view class="post-view">
+  <view class="view-content">
+
+    <view class="s" id="gooxao">
+ <!-- 此处为内容-->
+ <view class="page-content">
+		<view id="nrz" class="panel two-column-multirow-panel white">
+		<view class="container ">
+			<view class="header"><view class="row"><view class="col-sm-8 col-sm-offset-2"><h2>核心优势</h2>
+&nbsp;<br>
+搭建系统的功能全面与使用系统的简单方便完美融合，从简单数据采集监控，到复杂场景智能管理，中易云精心打造每一项功能，让您的物联网方案更完美！
+</view></view></view>
+
+			<view class="row">
+				<view class="col-sm-10 col-sm-offset-1">
+					<view class="multirow-container">
+						<view class="sub-panel">
+							<view class="row eh-sm">
+								<view class="col-sm-5 sub-panel-image valign-middle-important img-responsive">
+									<view style="text-align: left;">
+										<image alt="Statistical Process Control (SPC)" src="https://www.zeiot.cn/style/images/hxys/hxys_tu8.png" style="width: 105%; height: 220px;">
+									</view>
+								</view>
+								<view class="nr1">
+									<h3>自由的系统组态</h3> <br>易云系统提供上百种功能模块和组件，无论您是想组合系统功能，还是想自定义系统风格，无论您想配置业务逻辑，还是想在一个画面组合展示多种内容，都能通过易云系统的组态功能轻松实现，让功能全面与配置灵活完美融合，更好地契合您的应用场景。
+									<br>
+									<br>
+
+
+								</view>
+							</view>
+						</view>
+						<view class="sub-panel">
+							<view class="row eh-sm">
+
+								<view class="nr2">
+									<h3>大数据展示</h3> 易云系统支持大数据展示功能，界面支持自由组态，用户可以根据需要，将整个物联网系统中的任意数据在界面中进行展示，帮助用户实现全局掌握，且数据分析功能也将为用户下一步策略制定提供依据；同时也能外接LED大屏，将系统内容向更多人展示。
+									<br>
+									<br>
+
+
+								</view>
+								<view class="col-sm-5 sub-panel-image valign-middle-important img-responsive">
+									<view style="text-align: left;">
+										<image alt="Statistical Process Control (SPC)" src="https://www.zeiot.cn/style/images/hxys/hxys_tu6.png" style="width: 105%; height: 220px;">
+									</view>
+								</view>
+							</view>
+						</view>
+
+						<view class="sub-panel">
+							<view class="row eh-sm">
+								<view class="col-sm-5 sub-panel-image valign-middle-important img-responsive">
+									<view style="text-align: left;">
+										<image alt="Statistical Process Control (SPC)" src="https://www.zeiot.cn/style/images/hxys/hxys_tu7.png" style="width: 105%; height: 220px;">
+									</view>
+								</view>
+								<view class="nr3">
+								<h3>开放的驱动配置</h3> 易云系统支持多种通讯方式，包括通用socket通讯（TCP、UDP）、MQTT、HTTP等标准通讯方式，以及环保212协议，645规约，Modbus RTU、Modbus TCP等；同时，系统也提供标准接口，支持第三方开发软件驱动程序、服务与云平台对接，通过自定义驱动功能，即使您不懂编程，也能实现配置非标准协议并通讯。
+									<br>
+									<br>
+
+
+								</view>
+							</view>
+						</view>
+						<view class="sub-panel">
+							<view class="row eh-sm">
+
+								<view class="nr4">
+									<h3>全面的用户架构</h3> 易云系统采用平台、系统、项目三级架构，满足不同类型的用户需求：平台级可以包含多个系统，建立多个项目，需要多种业务逻辑的集团企业或跨行业集成商推荐使用；系统级使用一套行业逻辑，单独系统内可以建立多个项目，适合普通企业进行多项目管理以及做某一特定行业的经销商、硬件厂商；项目级只有一个项目可用，适合中小企业进行智能管理使用。
+									<br>
+									<br>
+
+
+								</view>
+								<view class="col-sm-5 sub-panel-image valign-middle-important img-responsive">
+									<view style="text-align: left;">
+										<image alt="Statistical Process Control (SPC)" src="https://www.zeiot.cn/style/images/hxys/hxys_tu3.png" style="width: 105%; height: 220px;">
+									</view>
+								</view>
+							</view>
+						</view>
+						<view class="sub-panel">
+							<view class="row eh-sm">
+								<view class="col-sm-5 sub-panel-image valign-middle-important img-responsive">
+									<view style="text-align: left;">
+										<image alt="Statistical Process Control (SPC)" src="https://www.zeiot.cn/style/images/hxys/hxys_tu4.png" style="width: 105%; height: 220px;">
+									</view>
+								</view>
+								<view class="nr5">
+									<h3>无限的角色机构</h3>易云系统支持百级权限划分，可以建立无限个角色与机构 ，统一企业不同部门，同一部门不同成员之间之间，完全可以拥有不同的权限，只能查看本部门、本人职位权限内的内容，优化管理水平，避免因为员工误操作或恶意破坏带来的风险。
+									<br>
+									<br>
+
+
+								</view>
+							</view>
+						</view>
+						<view class="sub-panel">
+							<view class="row eh-sm">
+								<view class="col-sm-5 sub-panel-image valign-middle-important img-responsive">
+									<view style="text-align: left;">
+										<image alt="Statistical Process Control (SPC)" src="https://www.zeiot.cn/style/images/hxys/hxys_tu5.png" style="width: 105%; height: 220px;">
+									</view>
+								</view>
+								<view class="nr6">
+									<h3>智能管理</h3>易云系统提供各种智慧管理功能，例如任务系统、巡检系统、文档管理系统、在线沟通系统等，同时系统支持自定义管理功能，可以由用户创建数据表、字段，业务逻辑，实现各种定制化管理需求，让企业管理更加智能化。
+									<br>
+									<br>
+
+
+								</view>
+							</view>
+						</view>
+												<view class="sub-panel">
+							<view class="row eh-sm">
+								<view class="col-sm-5 sub-panel-image valign-middle-important img-responsive">
+									<view style="text-align: left;">
+										<image alt="Statistical Process Control (SPC)" src="https://www.zeiot.cn/style/images/hxys/hxys_tu2.png" style="width: 105%; height: 220px;">
+									</view>
+								</view>
+								<view class="nr7">
+									<h3>并发与安全</h3>易云系统基于云计算框架，拥有优秀的分布式架构，单服务器可以解决四五千台设备并发，分布式云架构可实现百万级并发；同时系统使用多种安全验证和权限体系，采用与银行同级别的SSL128加密体系，超过大部分ECS服务器。
+									<br>
+									<br>
+
+
+								</view>
+							</view>
+						</view>
+					</view>
+				</view>
+			</view>
+		</view>
+	</view></view>
+
+ <!-- 此处为内容-->
+    </view>
+
+
+  </view>
+</view>
+<!--**************************首页表单******************* -->
+<view class="info-box">
+<view class="sdd">
+申请试用账号或咨询
+</view>
+<form bindsubmit="formSubmit" bindreset="formReset">
+  <view class="section1">
+    <input name="xingming" placeholder="请输入姓名" class="section11"/>
+  </view>
+    <view class="section2">
+    <input name="xingbie" placeholder="您的电话" class="section11" />
+  </view>
+    <view class="section3">
+    <input name="aihao" placeholder="请输入您的需求" class="section11"  />
+  </view>
+  <view class="btn-area4">
+    <button formType="submit" class="btn-area41">提交申请</button>
+    <!--* <button formType="reset">重置</button>-->
+  </view>
+</form>
+  </view>
+<!--**************************首页表单******************* -->
